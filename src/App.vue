@@ -12,6 +12,9 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  mounted () {
+    console.log(process.env)
   }
 }
 </script>
