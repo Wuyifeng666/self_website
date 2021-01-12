@@ -33,10 +33,10 @@ module.exports = {
       .set('@pub', resolve('public')) // 设置public别名为@pub
       .set('pages', resolve('src/components/pages'))
     config.module
-      .rule('yaml')
+      .rule('yml')
       .test(/\.ya?ml$/)
-      .use('yaml')
-        .loader('yaml-loader')
+      .use('yml')
+        .loader('yml-loader')
         .end()
   },
   configureWebpack: config => {
