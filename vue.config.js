@@ -31,6 +31,7 @@ module.exports = {
     // 添加别名（src默认为@，不用再次添加）
     config.resolve.alias
       .set('@pub', resolve('public')) // 设置public别名为@pub
+      .set('pages', resolve('src/components/pages'))
     config.module
       .rule('yaml')
       .test(/\.ya?ml$/)
