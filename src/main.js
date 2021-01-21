@@ -7,9 +7,9 @@ import 'vant/lib/index.css'
 
 Vue.use(Vant)
 Vue.use(Vuex)
-Vue.use(router)
 Vue.config.productionTip = false
-
+window.location.hash = 'Index'
 new Vue({
   render: h => h(App),
+  router
 }).$mount('#app')
