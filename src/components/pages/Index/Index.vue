@@ -11,11 +11,6 @@
       van-grid-item(icon='photo-o' text='文字')
       van-grid-item(icon='photo-o' text='文字')
       van-grid-item(icon='photo-o' text='文字')
-    van-tabbar(v-model='active')
-      van-tabbar-item(icon='home-o') 标签
-      van-tabbar-item(icon='search') 标签
-      van-tabbar-item(icon='friends-o') 标签
-      van-tabbar-item(icon='setting-o') 标签
 </template>
 
 <script>
@@ -23,13 +18,12 @@ export default {
   name: 'Index',
   data () {
     return {
-      active: 'home-o'
+      
     }
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .my-swipe .van-swipe-item {
   color: #fff;

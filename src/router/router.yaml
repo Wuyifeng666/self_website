@@ -7,3 +7,8 @@
       name: Index
       meta:
         label: 主页
+    -
+      path: /Setting
+      name: Setting
+      meta:
+        label: 设置
