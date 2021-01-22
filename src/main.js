@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Vant from 'vant'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
 import store from '@/store'
 import router from '@/router'
-import 'vant/lib/index.css'
 
-Vue.use(Vant)
+Vue.use(ElementUI)
 
 window.location.hash = 'Index'
 

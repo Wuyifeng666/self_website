@@ -20,7 +20,6 @@ const mutations = {
   },
   [CLEAR_TOKEN] (state) {
     state.token = null
-    // localSave.remove('user.token')
     window.sessionStorage.removeItem('user.token')
   },
   [CLEAR_ALL] (state) {
